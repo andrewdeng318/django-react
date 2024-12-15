@@ -135,6 +135,28 @@ const Portfolio = () => {
                 Twitter
               </a>
               <a 
+                href="https://www.youtube.com/@bitdancing" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-100 text-[#FF0000] font-semibold rounded-lg transition duration-300"
+              >
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                YouTube
+              </a>
+              <a 
+                href="https://www.udemy.com/user/andrew-deng-3/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-100 text-[#A435F0] font-semibold rounded-lg transition duration-300"
+              >
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0L1.608 6v12L12 24l10.392-6V6L12 0zm-1.02 14.106V9.894c0-.89.696-1.608 1.556-1.608.859 0 1.556.718 1.556 1.608v4.212c0 .89-.697 1.607-1.556 1.607-.86 0-1.557-.717-1.557-1.607zm4.235 0V9.894c0-.89.696-1.608 1.556-1.608.859 0 1.556.718 1.556 1.608v4.212c0 .89-.697 1.607-1.556 1.607-.86 0-1.556-.717-1.556-1.607zm-8.47 0V9.894c0-.89.696-1.608 1.555-1.608.86 0 1.557.718 1.557 1.608v4.212c0 .89-.697 1.607-1.557 1.607-.859 0-1.556-.717-1.556-1.607z"/>
+                </svg>
+                Udemy
+              </a>
+              <a 
                 href="mailto:bitdanchingchina@gmail.com" 
                 className="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-100 text-[#0A66C2] font-semibold rounded-lg transition duration-300"
               >
