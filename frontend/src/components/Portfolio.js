@@ -194,6 +194,107 @@ const Portfolio = () => {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section className="section bg-gray-50 py-20">
+        <div className="container">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
+            <h2 className="text-3xl font-bold mb-12 text-center font-playfair">Professional Certifications</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {/* Row 1 */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/safe-devops.png" 
+                    alt="SAFe DevOps Certification" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">SAFe 5 DevOps Practitioner</h3>
+                  <p className="text-gray-600 text-center text-sm">Scaled Agile, Inc</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/azure-fundamentals.png" 
+                    alt="Azure Fundamentals" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">Azure Fundamentals</h3>
+                  <p className="text-gray-600 text-center text-sm">Microsoft</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/terraform-associate.png" 
+                    alt="Terraform Associate" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">Terraform Associate</h3>
+                  <p className="text-gray-600 text-center text-sm">HashiCorp</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/aws-solutions-architect-professional.png" 
+                    alt="AWS Solutions Architect Professional" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">AWS Solutions Architect Professional</h3>
+                  <p className="text-gray-600 text-center text-sm">Amazon Web Services</p>
+                </div>
+              </div>
+              {/* Row 2 */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/cka.png" 
+                    alt="Certified Kubernetes Administrator" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">Certified Kubernetes Administrator</h3>
+                  <p className="text-gray-600 text-center text-sm">The Linux Foundation</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/microsoft-certified-professional.png" 
+                    alt="Microsoft Certified Professional" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">Microsoft Certified Professional</h3>
+                  <p className="text-gray-600 text-center text-sm">Microsoft</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/aliyun.jpeg" 
+                    alt="Google Cloud Professional" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">Alibaba Cloud Security</h3>
+                  <p className="text-gray-600 text-center text-sm">Alibaba Cloud Cloud</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                <div className="p-6">
+                  <img 
+                    src="/images/gcp.png" 
+                    alt="Google Cloud Professional" 
+                    className="w-24 h-24 mx-auto mb-4 object-contain"
+                  />
+                  <h3 className="text-lg font-semibold text-center mb-2">Google Cloud Professional</h3>
+                  <p className="text-gray-600 text-center text-sm">Google Cloud</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Experience Section */}
       <section className="section bg-gray-100" id="experience">
         <div className="container">
