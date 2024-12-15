@@ -171,8 +171,9 @@ bash scripts/check_venv.sh
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-[Add your contact information here]
+- **Name:** Chris Deng
+- **Email:** andrew.deng@zczy318.com
